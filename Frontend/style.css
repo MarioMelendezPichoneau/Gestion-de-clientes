@@ -1,0 +1,36 @@
+
+#customer {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+#customer td, #customer th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customer tr:nth-child(even){background-color: #f2f2f2;}
+#customer tr:hover {background-color: #ddd;}
+
+#customer th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04aa6d;
+}
+
+#agregar {
+    background-color: rgba(28, 197, 226, 0.819);
+    margin-bottom: 6px;
+}
+
+#edictar{
+   
+    border-radius: 10px;
+    
+    background-color: rgb(55, 208, 55);
+}
+#eliminar {
+    background-color: red;
+}
